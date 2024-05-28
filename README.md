@@ -5,15 +5,6 @@ O projeto       visa desenvolver e implementar tecnologias avançadas para monit
 📋 Pré-requisitos
 Ter o arduino IDE instalado em sua máquina, para rodar os códigos da placa.
 materiais :
-Arduino Uno
-LDR
-LCD
-DHT22
-LED Vermelho; LED Amarelo; LED Verde
-3x Resistores 220ohms
-1x Buzzer
-Protoboard
-Cabos jumper
 
 📡 🔍 Instalação
 Segue exemplo de montagem e codigo do projeto : 
