@@ -6,13 +6,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 :root {
-    --color-padrao: #0378A6;
-    --color-padrao2: #0388A6;
-    --color-padrao3: #04ADBF;
-    --color-padrao4: #9AD2D9;
-    --color-padrao5: #04D9D9;
+    --color-padrao: #043469;
+    --color-padrao2: #0650A1;
+    --color-padrao3: #0863C7;
+    --color-padrao4: #0970E0;
+    --color-padrao5: #1499ED;
     --color-texto: black;
     --color-padrao6: #4079c4;
+    --color-padrao7: #47acd4;
 }
 
 /*HEADER*/
@@ -42,7 +43,7 @@ img {
 .container_texto {
     display: flex;
     align-items: center;
-    margin: 10px 8px 20px 20px;
+    margin: 10px 8px 20px 100px;
 }
 nav{
     margin: 16px;
@@ -52,20 +53,24 @@ nav ul{
     justify-content: space-between;
     gap: 10px;
 }
+.container_navegacao{
+    margin: 10px 100px 10px 10px;
+}
 
 li{
     list-style: none;
 }
 nav ul li a{
     text-decoration: none;
-    color: var(--color-padrao5);
-    background-color: var(--color-padrao4);
+    color: var(--color-padrao);
+    background-color: var(--color-padrao5);
     border-radius: 16px;
     padding: 16px ;
     transition: background-color 0.3s ease;
 }
 nav ul li a:hover{
     background-color: var(--color-padrao);
+    color: var(--color-padrao7);
 }
 
 /*BODY*/
@@ -90,22 +95,50 @@ main {
     display: flex;
     flex-direction: column;
     width: 60% ;
+    font-size: 22px;
 }
 
 /*FOOTER*/
 
 footer {
-    background-color: white;
+    background-color: var(--color-padrao6);
     min-height: 220px;
 }
 
 .footer_elements {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    margin: 20px 200px 0px 120px;
+    font-size: 20px;
 }
 
-.social_icons {
-    font-size: 25px;
+.social_icons a i {
+    font-size: 24px;
+    color: var(--color-padrao);
+    padding: 14px;
+    border-radius: 80px;
+    background-color: var(--color-padrao5);
+    transition: background-color 0.3s ease;
 }
 
+.social_icons a i:hover{
+    background-color: var(--color-padrao2);
+}
+.footer_section ul li a{
+    text-decoration: none;
+    color: var(--color-padrao);
+}
+
+.footer_section_sobre{
+    display: flex;
+    flex-direction: column;
+    width: 30% ;
+    font-size: 16px;
+}
+.copyright {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    margin-right: 50px;
+    font-size: 12px;
+}

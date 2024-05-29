@@ -1,23 +1,27 @@
 import random
-temperatura = 0
-aleatorio_ph = 10 * random.random()
-
-ph = aleatorio_ph
 
 conferir_ph = []
-conferir_ph.append(ph)
 conferir_temperatura = []
 
 
-def random_with_one_decimal(min_value, max_value):
-    return round(random.uniform(min_value, max_value), 1)
+def aleatorio(minimo, maximo):
+    return round(random.uniform(minimo, maximo), 1)
+i= 0
 
-for i in range(10):
+while i < 2:
     i+=1
-    print(random_with_one_decimal(5, 9))
-    print(f"O ph está muito baixo: {ph:.1}")
-    conferir_ph.append(ph)
+    ph = aleatorio(1, 9)
+    temperatura = aleatorio(0, 30)
+    if 6.5 < ph or ph > 8.0:
+        print(f"O ph está muito baixo: {ph}")
+        conferir_ph.append(ph)
+        print(conferir_ph)
+    else:
+        print(f"O ph está aceitável: {ph}")
 
-if temperatura > 30:
-    print("A temperatura está com problema")
-    conferir_temperatura.append(temperatura)
+    if temperatura < 18 or temperatura > 30:
+        print("A temperatura está com problema")
+        conferir_temperatura.append(temperatura)
+        print(conferir_temperatura)
+    else:
+        print("A temperatura está aceitável")
