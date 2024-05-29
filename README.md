@@ -12,11 +12,11 @@ Segue exemplo de montagem e codigo do projeto :
 
 
 ## 🛠️ Construído com
-Html/Css
-JavaScript
-Python
-Arduino IDE
++ Html/Css
++ JavaScript
++ Python
++ Arduino IDE
 
 ## ✒️ Autores
-Eric Segawa Montagner RM558224
-João Victor Oliveira dos Santos RM557948 
++ Eric Segawa Montagner RM558224
++ João Victor Oliveira dos Santos RM557948 
