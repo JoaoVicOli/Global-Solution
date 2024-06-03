@@ -6,7 +6,13 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     
     if (usuario === "charmander" && senha === "12345"){
         alert('Sucesso liberando seções');
-        document.getElementById('dropdownContainer').style.display = 'flex'; // Display flex to align properly
+        document.getElementById('dropdownContainer').style.display = 'flex'; 
+        document.querySelector('.header-login').addEventListener('submit', function(){
+            this.classList.add('fade-out');
+            this.addEventListener('animationend', () => {
+            this.style.display = 'none';
+              });
+        })
     } else {
         alert('Senha e/ou usuário incorretos');
     }

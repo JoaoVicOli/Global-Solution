@@ -12,9 +12,17 @@
         <section class="container">
             <div class="container_texto">
                 <h1 class="texto_principal">GLOBAL SOLUTION</h1>
-                <img src="./assets/img/worldpeople.png" alt="">
+                <img class="header-img" src="./assets/img/worldpeople.png" alt="">
             </div>
             <div class="container_navegacao">
+                <div class="header-login">
+                    <h2>Login</h2>
+                    <form id="loginForm">
+                        <input type="text" id="usuario" placeholder="Usuário" required>
+                        <input type="password" id="senha" placeholder="Senha" required>
+                        <button type="submit">Login</button>
+                    </form> 
+                </div>
                 <nav class="navegacao">
                     <div id="dropdownContainer" style="display: none;">
                         <label for="secoesDropdown">Selecionar Seção:</label>
@@ -34,44 +42,46 @@
     </header>
     <main> 
         <p class="main_conteudo">O nosso projeto visa desenvolver e implementar tecnologias avançadas para monitorar e analisar dados ambientais dos oceanos, utilizando sensores de alta precisão e drones submarinos. A plataforma de big data do projeto processa grandes volumes de dados para modelar e prever os impactos das mudanças climáticas e acidificação dos oceanos. Além disso, oferece serviços de consultoria personalizada, soluções sob medida, e programas educativos para aumentar a conscientização pública e apoiar políticas de conservação marinha. O objetivo é fornecer ferramentas e conhecimento para proteger e restaurar os ecossistemas marinhos de forma eficaz e sustentável.</p>
+        <img class="main-img" src="./assets/img/ecosymbol.png" alt="">
     </main>
     <footer>
-        <section class="footer_elements">
-            <div class="footer_section">
+        <section class="footer-container">
+           
+            <div class="footer-content">
                 <h3>Sobre Nós</h3>
-                <p class="footer_section_sobre">Nossa empresa desenvolve tecnologias avançadas para monitorar e analisar dados ambientais dos oceanos, usando sensores de alta precisão e drones submarinos. </p>           
+                <p class="footer-section-sobre">Nossa empresa desenvolve tecnologias avançadas para monitorar e analisar dados ambientais dos oceanos, usando sensores de alta precisão e drones submarinos. </p>           
             </div>
-            <div class="footer_section">
+            <div class="footer-content">               
                 <h3>Contato</h3>
-                <p>Email: contato@empresa.com</p>
+                <div class="footer-text">
+                <p>contato@empresa.com</p>
                 <p>Telefone: (11) 1234-5678</p>
+                </div>                
             </div>
-            <div class="social_icons">
+            <div class="footer-content">
                 <h3>Redes sociais</h3>
-                <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-whatsapp"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
+                <ul class="social-icons">
+                    <li>  
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
             </div>
-            <div class="footer_section">
+            <div class="footer-content">
                 <h3>Navegação</h3>
-                <ul>
+                <ul class="footer-list">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Serviços</a></li>
                     <li><a href="#">Sobre</a></li>
                     <li><a href="#">Contato</a></li>
                 </ul>
             </div>
-            <div class="footer_bottom">
-                <h2>Login</h2>
-                <form id="loginForm">
-                    <input type="text" id="usuario" placeholder="Usuário" required>
-                    <input type="password" id="senha" placeholder="Senha" required>
-                    <button type="submit">Login</button>
-                </form> 
-                <p class="copyright">&copy; 2024 Empresa GlobalS. Todos os direitos reservados.</p>
-            </div>
         </section>
+        <div class="footer-bottom">
+            <p class="copyright">&copy; 2024 Empresa GlobalS. Todos os direitos reservados.</p>
+        </div>
     </footer>
 </body>
-<script src="assets/js/script.js"></script>
+<script src="./assets/js/script.js"></script>
 </html>
