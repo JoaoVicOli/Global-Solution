@@ -4,3 +4,44 @@ eerricc (github)
 João victor Oliveira dos santos           
 RM 557948                      
 JoaoVicOli(github) 
+
+<!-- <div id = "fundodiv">
+                <div class = "footer-col">
+                    <h4>horario de funcionamento</h4>
+                    <ul>
+                        <li><a = href= "#"> segunda a domingo</a><li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>entre em contato</h4>
+                    <ul>
+                        <li><a href="#">watzap</a></li>
+                        <li><a href="#">email@gmail.com</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>'endereco'</h4>
+                    <ul>
+                        <li><a href="#">asdasdasdas</a></li>
+                        <li><a href="#">asdsadfgsdfsdf</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>redes sociais</h4>
+                    <div class ="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i><a/>
+                        <a href="#"><i class="fab fa-wazap"></i><a/>
+                        <a href="#"><i class="fab fa-insta"></i><a/>
+                        <a href="#"><i class="fi fi-brands-twitter-alt"></i><a/>
+                        <a href="#"><i class="fab fa-youtube"></i><a/>
+                        <a href="#"><i class="fab fa-linkedin"></i><a/>
+                    </div>
+                </div>
+
+                <div>
+                    <p class="direitos">copyright</p>
+                </div>
+            </div>
+                         -->

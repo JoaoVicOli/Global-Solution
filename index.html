@@ -16,14 +16,18 @@
             </div>
             <div class="container_navegacao">
                 <nav class="navegacao">
-                    <ul>
-                        <li><a class="navegacao_botao" href="assets/html/Secao1.html">Seção 1</a></li>
-                        <li><a class="navegacao_botao" href="assets/html/Secao2.html">Seção 2</a></li>
-                        <li><a class="navegacao_botao" href="assets/html/Secao3.html">Seção 3</a></li>
-                        <li><a class="navegacao_botao" href="assets/html/Secao4.html">Seção 4</a></li>
-                        <li><a class="navegacao_botao" href="assets/html/Secao5.html">Seção 5</a></li>
-                        <li><a class="navegacao_botao" href="assets/html/Secao6.html">Seção 6</a></li>
-                    </ul>
+                    <div id="dropdownContainer" style="display: none;">
+                        <label for="secoesDropdown">Selecionar Seção:</label>
+                        <select id="secoesDropdown">
+                            <option value="assets/html/Secao1.html">Seção 1</option>
+                            <option value="assets/html/Secao2.html">Seção 2</option>
+                            <option value="assets/html/Secao3.html">Seção 3</option>
+                            <option value="assets/html/Secao4.html">Seção 4</option>
+                            <option value="assets/html/Secao5.html">Seção 5</option>
+                            <option value="assets/html/Secao6.html">Seção 6</option>
+                        </select>
+                        <button id="irParaSecao">Ir</button>
+                    </div>
                 </nav>
             </div>
         </section>
@@ -32,48 +36,7 @@
         <p class="main_conteudo">O nosso projeto visa desenvolver e implementar tecnologias avançadas para monitorar e analisar dados ambientais dos oceanos, utilizando sensores de alta precisão e drones submarinos. A plataforma de big data do projeto processa grandes volumes de dados para modelar e prever os impactos das mudanças climáticas e acidificação dos oceanos. Além disso, oferece serviços de consultoria personalizada, soluções sob medida, e programas educativos para aumentar a conscientização pública e apoiar políticas de conservação marinha. O objetivo é fornecer ferramentas e conhecimento para proteger e restaurar os ecossistemas marinhos de forma eficaz e sustentável.</p>
     </main>
     <footer>
-        <!-- <div id = "fundodiv">
-                <div class = "footer-col">
-                    <h4>horario de funcionamento</h4>
-                    <ul>
-                        <li><a = href= "#"> segunda a domingo</a><li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>entre em contato</h4>
-                    <ul>
-                        <li><a href="#">watzap</a></li>
-                        <li><a href="#">email@gmail.com</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-col">
-                    <h4>'endereco'</h4>
-                    <ul>
-                        <li><a href="#">asdasdasdas</a></li>
-                        <li><a href="#">asdsadfgsdfsdf</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-col">
-                    <h4>redes sociais</h4>
-                    <div class ="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i><a/>
-                        <a href="#"><i class="fab fa-wazap"></i><a/>
-                        <a href="#"><i class="fab fa-insta"></i><a/>
-                        <a href="#"><i class="fi fi-brands-twitter-alt"></i><a/>
-                        <a href="#"><i class="fab fa-youtube"></i><a/>
-                        <a href="#"><i class="fab fa-linkedin"></i><a/>
-                    </div>
-                </div>
-
-                <div>
-                    <p class="direitos">copyright</p>
-                </div>
-            </div>
-                         -->
         <section class="footer_elements">
-           
             <div class="footer_section">
                 <h3>Sobre Nós</h3>
                 <p class="footer_section_sobre">Nossa empresa desenvolve tecnologias avançadas para monitorar e analisar dados ambientais dos oceanos, usando sensores de alta precisão e drones submarinos. </p>           
@@ -99,10 +62,16 @@
                 </ul>
             </div>
             <div class="footer_bottom">
+                <h2>Login</h2>
+                <form id="loginForm">
+                    <input type="text" id="usuario" placeholder="Usuário" required>
+                    <input type="password" id="senha" placeholder="Senha" required>
+                    <button type="submit">Login</button>
+                </form> 
                 <p class="copyright">&copy; 2024 Empresa GlobalS. Todos os direitos reservados.</p>
             </div>
         </section>
     </footer>
 </body>
-<script src="./assets/js/script.js"></script>
+<script src="assets/js/script.js"></script>
 </html>
