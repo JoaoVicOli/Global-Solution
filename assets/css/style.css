@@ -81,11 +81,6 @@ header {
     margin-right: 100px;
 }
 
-nav ul{
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-}
 .container_navegacao{
     margin: 10px 100px 10px 10px;
 }
@@ -109,6 +104,14 @@ nav ul li a:hover{
     margin-top: 20px;
     
   }
+
+.navegacao_botao{
+    padding: 10px;
+    border: 1px var(--color-padrao) solid;
+    color: var(--color-padrao);
+    border-radius: 16px;
+    background-color: var(--color-padrao5);
+}
 
 
 /*MAIN*/
