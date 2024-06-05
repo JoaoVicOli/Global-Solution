@@ -10,7 +10,7 @@ i= 0
 
 while i < 2:
     i+=1
-    ph = aleatorio(1, 9)
+    ph = aleatorio(1, 15)                                    
     temperatura = aleatorio(0, 30)
     if 6.5 < ph or ph > 8.0:
         print(f"O ph está muito baixo: {ph}")
