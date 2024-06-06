@@ -6,6 +6,11 @@
 ## 📋 Pré-requisitos
 + Ter o arduino IDE instalado em sua máquina, para rodar os códigos da placa.
 + materiais :
+  - DHT11 / DHT22
+  - Display LCD
+  - Arduino Uno
+  - Cabos Jumper
+  - Breadboard
 
 ## 📡 🔍 Instalação
 Segue exemplo de montagem e codigo do projeto : 
@@ -19,4 +24,7 @@ Segue exemplo de montagem e codigo do projeto :
 
 ## ✒️ Autores
 + Eric Segawa Montagner RM558224
-+ João Victor Oliveira dos Santos RM557948 
++ João Victor Oliveira dos Santos RM557948
+
+## Git Page
++ https://joaovicoli.github.io/Global-Solution/
