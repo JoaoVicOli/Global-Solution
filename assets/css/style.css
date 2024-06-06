@@ -32,7 +32,6 @@ body {
     flex-direction: column;
     width: 100%;
     height: 100%;
-    padding: 0 20px;
 }
 
 p {
@@ -54,8 +53,8 @@ header {
 
 .header-img {
     margin-left: 10px;
-    height: 40px; /* Diminui o tamanho da imagem */
-    width: 40px; /* Diminui o tamanho da imagem */
+    height: 50px;
+    width: 50px;
 }
 
 .texto_principal {
@@ -107,7 +106,6 @@ header {
     border: 1px solid var(--color-padrao6);
     border-radius: 5px;
     background-color: var(--color-padrao6);
-    margin-left: 20px; /* Adiciona espaço entre o login e o logo */
 }
 
 .header-login label {
@@ -187,14 +185,12 @@ header {
 }
 
 /* MAIN */
-
 main {
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 100px;
-    padding: 0 20px;
 }
 
 .main_conteudo {
@@ -205,14 +201,14 @@ main {
 }
 
 .main-img {
-    width: 250px; /* Diminui o tamanho da imagem */
-    height: 250px; /* Diminui o tamanho da imagem */
+    width: 300px;
+    height: 300px;
 }
 
 /* FOOTER */
 footer {
     background-color: var(--color-padrao);
-    padding: 20px 0;
+    padding-top: 20px;
     min-height: 50px;
 }
 
@@ -318,61 +314,79 @@ a:hover {
     font-size: 16px;
 }
 
-/* Responsividade */
-@media (max-width: 1024px) {
-    body, main {
-        padding: 0 20px;
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0.9);
     }
 }
 
-@media (max-width: 768px) {
-    body, main {
-        padding: 0 30px;
-    }
+.fade-out {
+    animation: fadeOut 0.3s forwards;
+}
 
-    header {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+.efeito {
+    animation: efeito-chip 1.5s infinite alternate;
+}
 
-    .container {
-        margin-left: 0;
+@keyframes efeito-chip {
+    0% {
+        transform: translateY(0);
     }
-
-    .navegacao, .container_navegacao {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .main_conteudo {
-        width: 100%;
+    100% {
+        transform: translateY(20px);
     }
 }
 
-@media (max-width: 480px) {
-    body, main {
-        padding: 0 40px;
-    }
-
-    .container {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-
-    .main_conteudo {
-        font-size: 18px;
-    }
-
-    .main-img {
+/* RESPONSIVIDADE */
+@media (max-width: 1200px) {
+    .footer-container {
         width: 100%;
-        height: auto;
-    }
-
-    footer .footer-container {
         flex-direction: column;
         align-items: center;
     }
 
     .footer-content {
-        width: 100
+        width: 100%;
+        margin-bottom: 20px;
     }
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+        margin-left: 20px;
+    }
+    main{
+        margin-left: 20px;
+    }
+    .container_navegacao {
+        gap: 10px;
+    }
+
+    .main {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .main_conteudo {
+        width: 80%;
+        font-size: 18px;
+    }
+
+    .main-img {
+        width: 250px;
+        height: 
+    }
+    
+    video{
+        width: 300px;
+        height: 300px;
+        margin-right: 20px;
+    }
+}
