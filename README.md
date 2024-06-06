@@ -24,4 +24,7 @@ Segue exemplo de montagem e codigo do projeto :
 
 ## ✒️ Autores
 + Eric Segawa Montagner RM558224
-+ João Victor Oliveira dos Santos RM557948 
++ João Victor Oliveira dos Santos RM557948
+
+## Git Page
++ https://joaovicoli.github.io/Global-Solution/
