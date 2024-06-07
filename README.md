@@ -11,13 +11,15 @@
   - Arduino Uno
   - Cabos Jumper
   - Breadboard
+  - 3x LEDs
+  - 1x Buzzer
 
 ## 📡 🔍 Instalação
-Segue exemplo de montagem e codigo do projeto : 
+Segue exemplo de montagem e codigo do projeto : https://wokwi.com/projects/399712532706990081
 
 
 ## 🛠️ Construído com
-+ Html/Css
++ HTML/CSS
 + JavaScript
 + Python
 + Arduino IDE
